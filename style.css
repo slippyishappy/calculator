@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    font-family: 'Inter';
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#screen {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    border: 2px black solid;
+    width: 208px;
+    height: 64px;
+    padding: 18px 28px;
+}
+
+#calculator {
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 16px;
+    border: 2px black solid;
+    border-radius: 8px;
+}
+
+#row1, #row2, .row3, .row4 {
+    margin: 8px;
+}
+
+button {
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 26px;
+    width: 60px;
+    height: 60px;
+    border: 2px black solid;
+    background: white;
+    border-radius: 6px;
+}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 22, 22);
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.remove {
+    width: 128px;
+    padding: 8px 28px;
+    border-radius: 0%;
+}
+
+.operation, #calc {
+    background-color: orange;
+    border: none;
+    border-radius: 0%;
+}
+
+button:hover {
+    transform: rotate(360deg);
+    transform: scale(1.04);
+  }
